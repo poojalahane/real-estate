@@ -1,0 +1,118 @@
+PS G:\2025\projects\real-estate> cd client
+PS G:\2025\projects\real-estate\client> npm install -D tailwindcss@3.4.16 postcss@8.4.49 autoprefixer@10.4.20
+>>
+
+added 65 packages, changed 1 package, and8.4.49 autoprefixer@10.4.20
+>>
+
+added 65 packages, changed 1 package, and audited 219 packages in 12s
+
+52 packages are looking for funding      
+  run `npm fund` for details
+
+found 0 vulnerabilities
+PS G:\2025\projects\real-estate\client> npm install tailwind-merge@2.5.5 tailwindcss-animate@1.0.7
+>>
+
+>>
+
+added 65 packages, changed 1 package, and audited 219 packages in 12s
+
+52 packages are looking for funding      
+  run `npm fund` for details
+
+found 0 vulnerabilities
+PS G:\2025\projects\real-estate\client> npm install tailwind-merge@2.5.5 tailwindcss-animate@1.0.7
+>>
+
+ audited 219 packages in 12s
+
+52 packages are looking for funding      
+  run `npm fund` for details
+
+found 0 vulnerabilities
+PS G:\2025\projects\real-estate\client> npm install tailwind-merge@2.5.5 tailwindcss-animate@1.0.7
+>>
+
+  run `npm fund` for details
+
+found 0 vulnerabilities
+PS G:\2025\projects\real-estate\client> npm install tailwind-merge@2.5.5 tailwindcss-animate@1.0.7
+>>
+
+pm install tailwind-merge@2.5.5 tailwindcss-animate@1.0.7
+>>
+added 2 packages, and audited 221 packages in 3s
+added 2 packages, and audited 221 packages in 3s
+added 2 packages, and audited 221 packages in 3s
+added 2 packages, and audited 221 packages in 3s     kages are looking for funding
+
+added 2 packages, and audited 221 packages in 3s     `npm fund` for details
+
+added 2 packages, and audited 221 packages in 3s
+
+added 2 packages, and audited 221 packages in 3s
+
+added 2 packages, and audited 221 packages in 3s   run `npm fund` for details
+added 2 packages, and audited 221 packages in 3s
+
+53 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+PS G:\2025\projects\real-estate\client> npx tailwindcss init -p
+>>
+
+Created Tailwind CSS config file: tailwind.config.js
+Created PostCSS config file: postcss.config.js
+PS G:\2025\projects\real-estate\client>
+
+
+PS G:\2025\projects\real-estate\client> cd..
+PS G:\2025\projects\real-estate> git init
+Initialized empty Git repository in G:/2025/projects/real-estate/.git/
+PS G:\2025\projects\real-estate> git add .
+warning: in the working copy of 'client/.gitignore', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'client/README.md', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'client/eslint.config.js', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'client/index.html', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'client/package-lock.json', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'client/package.json', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'client/postcss.config.js', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'client/src/App.css', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'client/src/App.jsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'client/src/index.css', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'client/src/main.jsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'client/tailwind.config.js', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'client/vite.config.js', LF will be replaced by CRLF the next time Git touches it
+PS G:\2025\projects\real-estate> git commit -m "install react js and tailwind css and create the first template" 
+[master (root-commit) 24bcf09] install react js and tailwind css and create the first template
+ 15 files changed, 4067 insertions(+)
+ create mode 100644 client/.gitignore
+ create mode 100644 client/README.md
+ create mode 100644 client/eslint.config.js
+ create mode 100644 client/index.html
+ create mode 100644 client/package-lock.json
+ create mode 100644 client/package.json
+ create mode 100644 client/postcss.config.js
+ create mode 100644 client/public/vite.svg
+ create mode 100644 client/src/App.css
+ create mode 100644 client/src/App.jsx
+ create mode 100644 client/src/assets/react.svg
+ create mode 100644 client/src/index.css
+ create mode 100644 client/src/main.jsx
+ create mode 100644 client/tailwind.config.js
+ create mode 100644 client/vite.config.js
+PS G:\2025\projects\real-estate> git branch -M main
+PS G:\2025\projects\real-estate> git remote add origin https://github.com/poojalahane/real-estate.git
+PS G:\2025\projects\real-estate> git push -u origin main
+Enumerating objects: 21, done.
+Counting objects: 100% (21/21), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (18/18), done.
+Writing objects: 100% (21/21), 36.73 KiB | 1.15 MiB/s, done.
+Total 21 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+To https://github.com/poojalahane/real-estate.git
+ * [new branch]      main -> main
+branch 'main' set up to track 'origin/main'.
+PS G:\2025\projects\real-estate> 
